@@ -6,68 +6,123 @@
 <title>King Sampozee – Digital Marketing & Tech Support</title>
 
 <style>
-/* Full-page background image */
-body {
-  font-family: Arial, sans-serif;
-  margin:0;
-  padding:0;
-  line-height:1.6;
-  background: url('background2.jpg.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #fff; /* text color white for readability */
-  position: relative;
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+line-height:1.6;
+
+/* FULL BACKGROUND IMAGE */
+background-image: url('background2.jpg.jpg');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+
+background-color:#000;
+color:#fff;
 }
 
-/* Dark overlay for readability */
-body::before {
-  content: "";
-  position: fixed;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: rgba(0,0,0,0.5); /* semi-transparent black overlay */
-  z-index: -1; /* behind all content */
+/* overlay for readability */
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+z-index:-1;
 }
 
-/* Header */
-header { background: rgba(29,78,216,0.8); color:white; padding:40px 20px; text-align:center; }
-header h1 { margin:0; font-size:2.5em; }
-header p { margin-top:10px; font-size:1.2em; }
-
-/* Sections */
-section { padding:40px 20px; max-width:900px; margin:auto; }
-h2 { color:#1d4ed8; margin-bottom:20px; border-bottom:2px solid #1d4ed8; display:inline-block; padding-bottom:5px; }
-ul { list-style:none; padding:0; }
-li { margin-bottom:10px; }
-.portfolio img { width:100%; max-width:300px; margin:10px; border-radius:8px; }
-
-/* Footer */
-footer { background:#333; color:white; text-align:center; padding:20px; }
-a { color:#1d4ed8; text-decoration:none; }
-a:hover { text-decoration:underline; }
-
-/* Top & Bottom moving messages */
-.topmarquee {
-  background:black;
-  color:white;
-  padding:10px;
-  font-weight:bold;
+header{
+background:rgba(29,78,216,0.85);
+color:white;
+padding:40px 20px;
+text-align:center;
 }
-.bottommarquee {
-  background:#1d4ed8;
-  color:white;
-  padding:10px;
-  font-weight:bold;
+
+header h1{
+margin:0;
+font-size:2.8em;
 }
+
+header p{
+margin-top:10px;
+font-size:1.4em;
+}
+
+section{
+padding:40px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+color:#60a5fa;
+margin-bottom:20px;
+border-bottom:2px solid #60a5fa;
+display:inline-block;
+padding-bottom:5px;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+margin-bottom:10px;
+font-size:18px;
+}
+
+.portfolio img{
+width:100%;
+max-width:350px;
+margin:10px;
+border-radius:8px;
+}
+
+/* BIG CONTACT SECTION */
+.contact{
+font-size:22px;
+font-weight:bold;
+line-height:2;
+}
+
+.contact a{
+color:#60a5fa;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.topmarquee{
+background:black;
+padding:10px;
+font-weight:bold;
+font-size:18px;
+}
+
+.bottommarquee{
+background:#1d4ed8;
+padding:10px;
+font-weight:bold;
+font-size:18px;
+}
+
 </style>
-
 </head>
+
 <body>
 
-<!-- TOP MOVING MESSAGE -->
 <div class="topmarquee">
-<marquee behavior="scroll" direction="left">
+<marquee>
 🚀 Welcome to Sampozee Digital Services – Professional Tech & Online Solutions
 </marquee>
 </div>
@@ -80,9 +135,8 @@ a:hover { text-decoration:underline; }
 <section>
 <h2>About Me</h2>
 <p>
-I help businesses grow online through social media management, Instagram optimization,
-Canva post design, and basic technical support. I am reliable, detail-oriented,
-and focused on delivering high-quality results that help your business attract more customers.
+I help businesses grow online through social media management,
+Instagram optimization, Canva post design, and technical support.
 </p>
 </section>
 
@@ -99,32 +153,42 @@ and focused on delivering high-quality results that help your business attract m
 
 <section>
 <h2>Portfolio</h2>
-<p>Below are sample screenshots of work and designs.</p>
 <div class="portfolio">
-<img src="post1.jpg" alt="My Canva Design 1">
+<img src="post1.jpg">
 </div>
 </section>
 
 <section>
 <h2>Contact</h2>
-<p>Email: <a href="mailto:sampozee@gmail.com">sampozee@gmail.com</a></p>
-<p>WhatsApp: <a href="https://wa.me/2348063872523" target="_blank">Chat on WhatsApp</a></p>
-<p>Fiverr: <a href="https://www.fiverr.com/sampozee" target="_blank">Visit My Fiverr Profile</a></p>
+
+<div class="contact">
+
+📧 Email:  
+<a href="mailto:sampozee@gmail.com">sampozee@gmail.com</a>
+
+<br><br>
+
+📱 WhatsApp:  
+<a href="https://wa.me/2348063872523">+2348063872523</a>
+
+<br><br>
+
+💼 Fiverr:  
+<a href="https://www.fiverr.com/sampozee">www.fiverr.com/sampozee</a>
+
+</div>
+
 </section>
 
-<!-- BOTTOM MOVING MESSAGE -->
 <div class="bottommarquee">
-<marquee behavior="scroll" direction="right">
-💻 Web Design • Digital Support • Online Setup • Fast Delivery | 📩 WhatsApp: +2348063872523
+<marquee direction="right">
+💻 Web Design • Digital Support • Online Setup • Fast Delivery | WhatsApp: +2348063872523
 </marquee>
 </div>
 
 <footer>
-<p>&copy; 2026 King Sampozee | All Rights Reserved</p>
+<p>© 2026 King Sampozee | All Rights Reserved</p>
 </footer>
 
 </body>
 </html>
-
-
-
